@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+*html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    margin-top: 20px;
+    
+}
+
+nav a{
+    border-radius: 10px;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 10%;
+    padding:1%;
+    margin-left: 15%;
+    text-align: center;
+    font-family: Helvetica,Arial, sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+a:first-child {
+    background-color: #FF764E;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a:nth-child(2) {
+    background-color: #5ED3EB;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a:last-child {
+    background-color: #FFCD69;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section-1 {
+    width: 90%;
+    margin: 0 10%;
+    margin-top:60px;
+}
+
+ .section-1 img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.top-content {
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+    width: 71%;  
+}
+
+.mid-topContent {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4rem;
+    padding: 5%;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.mid-topContent-third {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    margin: 0 25%;
+    text-align: center;
+}
+
+.first {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    margin: 7px 80px;
+}
+
+.middle-content {
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+    width: 87%;
+    margin: 5% 5%;
+    background-color: #DDB9A3;
+    color: white;
+    padding: 1%;
+}
+
+.first-para {
+    padding: 2%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.second-para {
+    padding: 1%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.middle-content1 {
+    width: 22%;
+    margin: 0 auto;
+}
+
+.middle-content1 img {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.firstContent {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.middle-content2 {
+    width: 24%;
+    margin: 0 auto;
+}
+
+.middle-content2 img {
+    width: 50%;
+    margin: 0 20%;
+    padding-top: 15%
+}
+
+.secondP{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: 5%;
+    background-image: url('/assets/footer_img.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+
+.navFoot {
+    background-color: #F9E7DC;
+    padding: 2%;
+}
+.navFoot a {
+    font-family: 'Roboto Mono', monospace;
+    width: 8%;
+    font-size: 1rem;
+}
